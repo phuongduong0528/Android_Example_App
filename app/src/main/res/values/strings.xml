@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Message Test</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_display">Display</string>
+    <string name="txtview_hint">Your Message</string>
+    <string name="alert_dialog_message">This field is empty.</string>
+    <string name="btn_timer_start">start</string>
+    <string name="btn_timer_pause">pause</string>
+    <string name="btn_timer_reset">reset</string>
+    <string name="btn_timer">timer</string>
+    <string-array name="spinner_entries">
+        <item>20sp</item>
+        <item>30sp</item>
+        <item>40sp</item>
+    </string-array>
+</resources>
