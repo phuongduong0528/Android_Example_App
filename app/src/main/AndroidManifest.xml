@@ -17,7 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".DisplayActivity" />
-        <activity android:name=".StopWatchActivity"></activity>
+        <activity android:name=".StopWatchActivity" />
+        <activity android:name=".ListViewExample" />
+        <activity android:name=".TableLayoutExample"></activity>
     </application>
 
 </manifest>

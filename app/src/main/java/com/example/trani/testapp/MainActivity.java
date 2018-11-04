@@ -53,6 +53,16 @@ public class MainActivity extends AppCompatActivity implements DialogInterface.O
         startActivity(intent);
     }
 
+    public void onClickListView(View view) {
+        Intent intent = new Intent(this, ListViewExample.class);
+        startActivity(intent);
+    }
+
+    public void onClickTableLayout(View view) {
+        Intent intent = new Intent(this, TableLayoutExample.class);
+        startActivity(intent);
+    }
+
     //When click OK;
     @Override
     public void onClick(DialogInterface dialog, int which) {

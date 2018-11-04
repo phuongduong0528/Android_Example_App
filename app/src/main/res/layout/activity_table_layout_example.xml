@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TableLayoutExample">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="Name: " />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="238dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:inputType=""
+            android:text="Name" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="Email: " />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="238dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:inputType=""
+            android:text="Name" />
+    </TableRow>
+
+</TableLayout>
